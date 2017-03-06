@@ -1,0 +1,25 @@
+<resources>
+    <string name="app_name">Ride With Me</string>
+    <string name="title_activity_maps">Map</string>
+    <string name="title_activity_vanprovider_form">vanprovider_form</string>
+    <string name="action_settings">Settings</string>
+    <string name="section_format">Hello World from section: %1$d</string>
+    <string name="title_activity_van_route_details">Map</string>
+
+    <string name="radio_male">Male</string>
+    <string name="radio_female">Female</string>
+
+    <string name="Shared_VehicleType">VehicleTypeList</string>
+
+
+    <string-array name="days_list">
+        <item>Monday</item>
+        <item>Tuesday</item>
+        <item>Wednesday</item>
+        <item>Thursday</item>
+        <item>Friday</item>
+        <item>Saturday</item>
+        <item>Sunday</item>
+    </string-array>
+
+</resources>

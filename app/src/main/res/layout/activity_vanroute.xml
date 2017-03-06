@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_vanroute"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.ride.testingform.vanroute">
+
+    <Spinner
+        android:id="@+id/VanTypeID"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="37dp" />
+
+    <AutoCompleteTextView
+        android:id="@+id/FromToArea"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/VanTypeID"
+        android:layout_alignStart="@+id/VanTypeID"
+        android:layout_below="@+id/VanTypeID"
+        android:hint="Area"
+        android:text="AutoCompleteTextView" />
+
+    <EditText
+        android:id="@+id/VanCharges"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/FromToArea"
+        android:layout_alignStart="@+id/FromToArea"
+        android:layout_below="@+id/FromToArea"
+        android:ems="10"
+        android:hint="Charges"
+        android:inputType="numberSigned" />
+
+    <EditText
+        android:id="@+id/VanStartTime"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/VanCharges"
+        android:layout_alignStart="@+id/VanCharges"
+        android:layout_below="@+id/VanCharges"
+        android:ems="10"
+        android:hint="From Time"
+        android:inputType="time" />
+
+    <EditText
+        android:id="@+id/VanEndTime"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/VanStartTime"
+        android:layout_alignStart="@+id/VanStartTime"
+        android:layout_below="@+id/VanStartTime"
+        android:ems="10"
+        android:hint="To Time"
+        android:inputType="time" />
+</RelativeLayout>
